@@ -37,8 +37,8 @@ const MovieDropDrowm=()=>{
         <div>
         <select value={Genre[id]} onChange={handleOptionChange}>
         <option value="">-- Select --</option>
-      {list.map((index,listI)=>(
-        <option key={index} value={list[listI]}>{list[listI]}</option>
+      {list.map((item,index)=>(
+        <option key={index} value={item}>{item}</option>
       ))}
       </select>
 
