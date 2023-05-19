@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // import Example from './components/Example.js'
 import { useState } from 'react';
 import Genre from './GenreAndId';
@@ -89,17 +88,6 @@ function App(){
       <div id = "submit-wrapper">
         <button type='submit' onClick={e => updateClickHandler(e)}>Load more</button>
       </div>
-=======
-import './App.css';
-import MovieDropDrowm from "./components/MovieGenresDropDown";
-import MovieCard from "./components/MovieCard";
-function App() {
-  return (
-    <div className="App">
-    <MovieDropDrowm></MovieDropDrowm>
-
-    <MovieCard className="Movie-Card" name="Vardhan" Description="very good boy" image="https://images.pexels.com/photos/2055100/pexels-photo-2055100.jpeg?cs=srgb&dl=pexels-george-desipris-2055100.jpg&fm=jpg"></MovieCard>
->>>>>>> 8d8ca1ce330607529d61e88efe6a2b072039e7ed
     </div>
   );
 };
