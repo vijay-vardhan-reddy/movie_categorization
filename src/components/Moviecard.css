@@ -1,0 +1,13 @@
+.movie-card{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#e8b80e;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.card-footer{
+    width: 100%;
+}
