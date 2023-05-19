@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 body{
   background-color: black;
-  margin-left: 10px;
   display: flex;
   justify-content: center;
 }
@@ -13,28 +11,3 @@ body{
   grid-auto-rows: 1fr;
   grid-gap: 10px;
 }
-
-#drop-down-wrapper{
-=======
-.App {
->>>>>>> 8d8ca1ce330607529d61e88efe6a2b072039e7ed
-  display: flex;
-  align-items: center;
-<<<<<<< HEAD
-  justify-content: center;
-}
-
-#drop-down-menu{
-  margin: 10px;
-}
-
-#submit-wrapper{
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-=======
-  margin-top: 50px;
-  
-}
->>>>>>> 8d8ca1ce330607529d61e88efe6a2b072039e7ed
